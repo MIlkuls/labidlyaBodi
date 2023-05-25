@@ -1,0 +1,33 @@
+
+.date-time{
+    visibility: hidden;
+}
+
+.timeChange:hover .date-time{
+    visibility: visible;
+}
+.timeChange:hover .currentDay{
+    visibility: hidden;
+}
+
+img{
+    padding-top: 50px;
+    width: 50px;
+    transition: all 0.5s ease-out;
+    border-radius: 50%;
+}
+img:hover{
+     animation: spin 1s infinite linear;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.508);
+     transition: all 0.5s ease-out;
+     
+}
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(720deg);
+      }
+    }
