@@ -33,10 +33,10 @@ a.addEventListener('click',(e)=>{
     const today = new Date();
     alert(month[today.getMonth()]) 
 })
-/*window.addEventListener('load', ()=> {
+window.addEventListener('load', ()=> {
   alert(`До неділі ${getMonday()} `)
   current.textContent = `Поточна дата: ${today.toLocaleDateString()}`
-});*/
+});
 
 
 
